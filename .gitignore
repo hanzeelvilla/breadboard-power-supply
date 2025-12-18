@@ -1,0 +1,26 @@
+# --- KiCad Files to Ignore ---
+
+# Backups y archivos temporales
+*-backups/
+*.bak
+*.cadbak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_autosave-*
+
+# Configuración local de usuario (posiciones de ventanas, etc.)
+*.kicad_prl
+
+# Cache de huellas (se regenera solo)
+fp-info-cache
+fp-lib-table
+
+# Archivos de bloqueo (cuando tienes el proyecto abierto)
+*.lck
+
+# --- Directorios de salida (Opcional pero recomendado) ---
+# Si generas Gerbers o PDFs en carpetas específicas, ignóralas
+/plots/
+/gerbers/
+/outputs/
